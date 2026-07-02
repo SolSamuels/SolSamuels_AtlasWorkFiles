@@ -25,7 +25,7 @@ Files within this directory include:
 	  by the MATLAB RBF model fitting routine 
 	  (see \RadialBasisFunctions_MatLabFitting directory for more details 
 	  on process).
-        - See work in [1] and [2] for details on the theory and naming 
+    - See work in [1] and [2] for details on the theory and naming 
 	  convention behind the parameters.
 	- These parameter values are then pulled by params_loader.py for use in
 	  the main RBF-NN script.
