@@ -1,1 +1,0 @@
-# SolSamuels_AtlasWorkFiles
