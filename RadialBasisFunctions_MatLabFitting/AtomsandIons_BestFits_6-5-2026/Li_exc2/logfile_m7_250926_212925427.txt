@@ -1,0 +1,25 @@
+Small number = 0.000001.
+
+Initial guess for B0 from Model 1 = 0.054381.
+Initial guess for alpha from Model 1 = 0.626450.
+Initial guess for beta computed from Model 1 alpha = 0.596296.
+
+Optimized B0 from Model 7                 = 0.000084
+Optimized Zeff from Model 7               = 3.000000
+Optimized alpha from Model 7              = 1.121292
+Optimized beta from Model 7               = 0.631566
+Beta computed from Model 7 alpha and Zeff = -0.108172
+Optimized C0 from Model 7                 = 0.000027
+Optimized mm from Model 7                 = 26.101159
+Optimized gamma from Model 7              = 4.861152
+Optimized D0 from Model 7                 = 1.435592
+Optimized eta from Model 7                = 3.092528
+Optimized bb from Model 7                 = -0.856847
+Optimized E0 from Model 7                 = 0.000000
+Optimized delta from Model 7              = 0.419009
+Optimized pp from Model 7                 = 6.851769
+Optimized qq from Model 7                 = 71.579159
+Optimized tt from Model 7                 = 2.240983
+
+beta(0)= 0.631566.
+beta(19.199168)= -15.819174.

@@ -1,0 +1,91 @@
+Parameters	Values
+Atomic state	F^{-2}
+emax	0.82396
+A0_dbar	120.5051
+Z	9
+N	11
+alpha	0.88563
+B0	0.18295
+---	---
+Boundary Conditions	BCs
+B0LB	1e-06
+alphaLB	0.4
+C0LB	1e-06
+gammaLB	1e-06
+mmLB	15
+betaLB	0
+A0LB	440
+D0LB	1e-06
+etaLB	1e-06
+bbLB	-2
+E0LB	0
+deltaLB	0
+ppLB	0
+qqLB	0
+ttLB	0
+B0UB	1
+alphaUB	1.5
+C0UB	30
+gammaUB	20
+mmUB	20
+betaUB	2
+A0UB	450
+D0UB	20
+etaUB	10
+bbUB	-0.1
+E0UB	0
+deltaUB	0
+ppUB	0
+qqUB	0
+ttUB	0
+---	---
+Input Values	Ins
+r1	0.35
+r2	1.8
+w1	0.35
+w2	0.3
+w3	0.25
+w4	0.05
+w5	0.05
+---	---
+Initial Values	X0
+ini_B0	1.5849e-30
+ini_alpha	1.2837
+ini_C0	1
+ini_mm	20
+ini_gamma	0.4
+ini_D0	0.01
+ini_eta	0.6
+ini_bb	-0.3
+ini_E0	0
+ini_delta	0
+ini_pp	0
+ini_qq	0
+ini_tt	0
+---	---
+Fitted Values	BestX
+B0	0.18295
+alpha	0.88563
+C0	0.014965
+mm	16.2383
+gamma	0.98271
+A0	440.0323
+beta	1.8765
+Zeff	9
+D0	0.42328
+eta	2.3783
+bb	-0.52595
+E0	0
+delta	0
+pp	0
+qq	0
+tt	0
+---	---
+Computed values	CompVals
+betaFFAZ	-2.1291
+Kato	0.99263
+Objtv Fn	0.077665
+---	---
+Data source	integrated # e-
+dBar	10.891
+Analytical model	10.8581

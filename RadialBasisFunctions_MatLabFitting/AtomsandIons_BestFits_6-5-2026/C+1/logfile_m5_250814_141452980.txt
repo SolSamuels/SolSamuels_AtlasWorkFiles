@@ -1,0 +1,16 @@
+Small number = 0.000001.
+
+Initial guess for B0 from Model 1 = 2.782710.
+Initial guess for alpha from Model 1 = 1.352183.
+Initial guess for beta computed from Model 1 alpha = 0.479089.
+
+Optimized A0 from Model 5                 = 120.000902
+Optimized B0 from Model 5                 = 0.128521
+Optimized C0 from Model 5                 = 0.279471
+Optimized D0 from Model 5                 = 17.878588
+Optimized Zeff from Model 5               = 6.000000
+Optimized alpha from Model 5              = 1.449459
+Optimized beta from Model 5               = 1.522599
+Beta computed from Model 5 alpha and Zeff = 0.379825
+Optimized mm from Model 5                 = 1.003146
+Optimized gamma from Model 5              = 1.913614
