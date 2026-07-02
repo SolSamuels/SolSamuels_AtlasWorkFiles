@@ -15,7 +15,8 @@ These projects, with related directories in this repository, include:
 	- Contains data results and essential programs for applying the Molecules 
 	  as Neural Networks formulation to various diatomic systems. 
 * Spherical DFT Project (\SphericalDFT):
-	- Contains computational programs and data related to work done for the paper 		  "Information encoded in Spherical DFT"
+	- Contains computational programs and data related to work done for the paper
+	"Information encoded in Spherical DFT"
 * Radial Basis Function, Atom and Ion Fitting (\RadialBasisFunctions_MatLabFitting):
 
 * Q-Chem Atom and Ion Density Generation (\Q-Chem_Calculations)
