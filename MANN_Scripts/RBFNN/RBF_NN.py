@@ -1,8 +1,20 @@
-#!/usr/bin/env python
-# coding: utf-8
+"""
+Versatile Radial Basis Function Neural Network (RBF-NN) for Diatomics
+
+Made by Sol Samuels
+Last edited: 7/6/2026
+
+This script implements a TensorFlow, custom Keras layer, radial basis function neural network 
+designed to determine weights for an ensemble atom in molecule representation [1] 
+for molecular electron densities for diatomic systems as a function of internuclear
+separation (R). The model is trained on precomputed molecular electron density grids (Gaussian or
+similar electronic structure outputs) and determines a weighted atomic-state decomposition that
+reconstructs the full molecular density.
 
 
-# Versatile RBF-NN setup
+[1]  Susan R Atlas. Embedding quantum statistical excitations in a classical force field.
+The Journal of Physical Chemistry A, 125(17):3760-3775, 2021
+"""
 
 # ---------------------------------
 # Imports Required:
@@ -78,6 +90,12 @@ loss_fitparam = 2e4         # weight for mean(square(rho_true - rho_pred)) term
 loss_chargeparam = 100      # weight for total charge constraint
 loss_AtomAsum = 100         # weight for sum of atom A weights = 1 constraint
 loss_AtomBsum = 100         # weight for sum of atom B weights = 1 constraint
+
+
+# Fraction of the values of R included in the weight calculation (0 to 1)
+    # if set to 1, all available values of R (those with molecular density grids calculated) will be
+    # included in the RBF-NN weight determination. If set to 0.5, every other available distance will be skipped, etc.
+fraction_sep_dict = 1.0  # Reduce if want a quick 'test' run
 
 
 # Define requested states: (name, charge, model function)
@@ -165,7 +183,7 @@ print("\t Loss Function Atom B sum constraint: ", loss_AtomBsum)
 
 #File path for density files:
 if coarseness == "Coarse":
-    main_path = f"/carc/scratch/users/sol-sam/GaussianMolecularDensities/{molecule}/{level_of_theory}/{coarseness}/{molecule}_{level_of_theory}_{basis_set}_seq/"
+    main_path = f"/carc/scratch/projects/susie/susie2016319-3tb/GaussianMolecularData/{molecule}/{level_of_theory}/{coarseness}/{molecule}_{level_of_theory}_{basis_set}_seq/"
 if coarseness == "Fine":
     main_path = f"/easley/scratch/users/sol-sam/FineMolecularDensities/{molecule}/{level_of_theory}/{coarseness}/{molecule}_{level_of_theory}_{basis_set}_seq/"
 
@@ -190,7 +208,22 @@ sep_dict.sort(reverse=True)
 # keep only the string values used elsewhere in the script
 sep_dict = [s for _, s in sep_dict]
             
-            
+# --------------------------
+# Include only a percentage of R values if requested
+# --------------------------
+
+# Keep an evenly distributed fraction
+if fraction_sep_dict < 1.0:
+    n = len(sep_dict)
+    keep = max(1, round(n * fraction_sep_dict))
+
+    indices = np.unique(np.round(np.linspace(0, n - 1, keep)).astype(int))
+    sep_dict = [sep_dict[i] for i in indices]
+    print(f"\n{fraction_sep_dict}% of values of R will be included")
+else:
+    print("\nFraction of internuclear separations requested is not less than 1. All possible values of R are included.")
+
+print(f"Number of values of R to be evaluated: {len(sep_dict)}")
 
 # Initial guess for weights
 # Default initial guess is both atoms are neutral

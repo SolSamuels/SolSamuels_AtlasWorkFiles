@@ -1,0 +1,50 @@
+TensorFlow/Keras Environment Setup (and other utilities needed for RBF_NN.py)
+
+
+Please use the following steps to create the conda environment. This is specifically
+written to be done on CARC (it doesn't matter which machine you are on) but should 
+work for any machine which has conda.
+
+
+1. Create and name the environment by submitting the following two lines 
+   (enter 'y' when prompted). Here I am naming the environment "tf_env", 
+   but it can be named anything.
+
+	conda create -n tf_env python=3.11
+	conda activate tf_env
+
+   Note: this code was specifically written with the 3.11 version of python. Newer
+   versions exist now and would likely still work. Some functions may have become 
+   outdated however.
+
+
+2. Install NumPy, SciPy, Pandas, and Matplotlib by submitting the following line:
+
+	conda install numpy=1.23.5 scipy=1.10.1 pandas=1.5.3 matplotlib=3.7.1
+
+   Note: Once again, the versions listed are the versions the code was written with.
+   Changes to the versions may or may not cause issues.
+
+
+3. Install TensorFlow / Keras by submitting the following line 
+   (this might take a while to download/install)
+
+	conda install -c defaults tensorflow=2.12.0 keras=2.12.0
+
+
+4. Install some other utilities by submitting the following line
+
+	conda install openpyxl hdf5 regex
+
+
+5. Verify installation.
+
+python -c "
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy
+print('environment OK')
+"
+
