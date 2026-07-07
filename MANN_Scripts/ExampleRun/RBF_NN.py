@@ -81,8 +81,8 @@ coarseness = "Coarse"       # Training grid level of coarseness (Gaussian determ
 batch_s = 1024              # Training batch size (Try Coarse=1024, Medium=8192, Fine=65536)
 start_dcy = 0.0001          # L2 weight decay parameter (don't go too large)
 end_dcy = start_dcy         # Change if want different L2 weight decay parameter in short-range (small R)
-epoch_num = 30000           # Maximum number of epochs before training is ended
-stopping_patience = 500     # Number of epochs with no improvement in loss before training is ended
+epoch_num = 10000           # Maximum number of epochs before training is ended
+stopping_patience = 100     # Number of epochs with no improvement in loss before training is ended
 epsilon = 1e-2              # Tolerance for weight decay switch (ignore if end_dcy = start_dcy)
 
 # Loss function parameters:
@@ -95,7 +95,7 @@ loss_AtomBsum = 100         # weight for sum of atom B weights = 1 constraint
 # Fraction of the values of R included in the weight calculation (0 to 1)
     # if set to 1, all available values of R (those with molecular density grids calculated) will be
     # included in the RBF-NN weight determination. If set to 0.5, every other available distance will be skipped, etc.
-fraction_sep_dict = 1.0  # Reduce if want a quick 'test' run
+fraction_sep_dict = 0.5  # Reduce if want a quick 'test' run
 
 
 # Define requested states: (name, charge, model function)

@@ -1,0 +1,2331 @@
+imports complete
+
+RBF-NN Initializing:
+	Molecular System:  CO
+	Level of Theory / Basis Set: MP4/aug-cc-pVQZ 
+	Trial:  1
+	Training Grid Coarseness:  Coarse
+	Writing outputs to: /users/sol-sam/SolSamuels_AtlasWorkFiles/MANN_Scripts/ExampleRun/RBFNN_T1_2026-07-06_16-58
+
+Parameter Information:
+	 Learning rate:  0.01
+	 Batch Size:  1024
+	 Long-range Weight Decay:  0.0001
+	 Short-range Weight Decay:  0.0001
+	 Weight Dcy switch eps. tolerance (ignore if end_dcy = start_dcy):  0.01
+	 Max Epoch number per value of R:  10000
+	 Epoch Stopping Patience:  100
+	 Loss Function RSME weight:  20000.0
+	 Loss Function charge constraint weight:  100
+	 Loss Function Atom A sum constraint:  100
+	 Loss Function Atom B sum constraint:  100
+
+50% of values of R will be included
+Number of values of R to be evaluated: 50
+
+-------------------------------------------------------
+Separation:  7.40
+
+
+Shift:  -7.990842
+Given R: 13.98397231564
+
+C0 Weight: 0.93925697
+C+1 Weight: 0.0002857104
+C-1 Weight: 0.0003054631
+C+2 Weight: 0.030089708
+Cexc1 Weight: 0.000189452
+Cexc2 Weight: 0.01949402
+Cexc3 Weight: 0.009725746
+Sum: 0.9993470648769289
+
+O0 Weight: 0.8042568
+O+1 Weight: 0.00015644317
+O-1 Weight: 0.00028186175
+O-2 Weight: 0.03026089
+Oexc1 Weight: 0.104071625
+Oexc2 Weight: 0.060678102
+Sum: 0.9997057191358181
+
+C Eff. Charge 0.06015966340783052
+O Eff. Charge -0.06064720002177637
+
+Total Charge:  -0.00048753661394584924
+
+Electrons integrated (actual): 12.5648
+actual px = -0.0321 D
+actual py = -0.0321 D
+actual pz = +4.6302 D
+|p| = 4.6304 D
+
+
+Electrons integrated (pred): 12.6134
+pred px = -0.0327 D
+pred py = -0.0327 D
+pred pz = +2.1548 D
+|p| = 2.1553 D
+
+Electron count (raw approx): 12.564798699135315
+RMSE:  0.007183737689787627
+Elapsed time for 7.40 A: 2 min 42 s
+
+-------------------------------------------------------
+Separation:  7.20
+
+
+Shift:  -7.774873
+Given R: 13.60602711792
+
+C0 Weight: 0.9133336
+C+1 Weight: 0.0040639797
+C-1 Weight: 0.0005820767
+C+2 Weight: 0.053747218
+Cexc1 Weight: 0.00045049147
+Cexc2 Weight: 0.023898711
+Cexc3 Weight: 0.004063393
+Sum: 1.0001394652354065
+
+O0 Weight: 0.7132302
+O+1 Weight: 0.00039967572
+O-1 Weight: 0.00061111164
+O-2 Weight: 0.05584433
+Oexc1 Weight: 0.15143469
+Oexc2 Weight: 0.07910911
+Sum: 1.0006291090103332
+
+C Eff. Charge 0.1109763392014429
+O Eff. Charge -0.11190009451820515
+
+Total Charge:  -0.0009237553167622536
+
+Electrons integrated (actual): 12.6193
+actual px = -0.0348 D
+actual py = -0.0348 D
+actual pz = +3.7590 D
+|p| = 3.7593 D
+
+
+Electrons integrated (pred): 12.6729
+pred px = -0.0351 D
+pred py = -0.0351 D
+pred pz = -0.2525 D
+|p| = 0.2574 D
+
+Electron count (raw approx): 12.619252152170006
+RMSE:  0.007216972918956951
+Elapsed time for 7.20 A: 1 min 56 s
+
+-------------------------------------------------------
+Separation:  7.00
+
+
+Shift:  -7.558904
+Given R: 13.2280819202
+
+C0 Weight: 0.89881086
+C+1 Weight: 0.0031728535
+C-1 Weight: 0.0006719087
+C+2 Weight: 0.067036815
+Cexc1 Weight: 0.00059598015
+Cexc2 Weight: 0.024835028
+Cexc3 Weight: 0.0040289327
+Sum: 0.999152381264139
+
+O0 Weight: 0.6679068
+O+1 Weight: 0.00035993502
+O-1 Weight: 0.00039999498
+O-2 Weight: 0.0685294
+Oexc1 Weight: 0.1727414
+Oexc2 Weight: 0.088599205
+Sum: 0.9985367512563244
+
+C Eff. Charge 0.1365745747461915
+O Eff. Charge -0.13709885446587577
+
+Total Charge:  -0.000524279719684273
+
+Electrons integrated (actual): 12.7360
+actual px = -0.0409 D
+actual py = -0.0409 D
+actual pz = +1.9908 D
+|p| = 1.9916 D
+
+
+Electrons integrated (pred): 12.7622
+pred px = -0.0407 D
+pred py = -0.0407 D
+pred pz = -2.5354 D
+|p| = 2.5361 D
+
+Electron count (raw approx): 12.736029428497341
+RMSE:  0.007242869403982948
+Elapsed time for 7.00 A: 1 min 27 s
+
+-------------------------------------------------------
+Separation:  6.80
+
+
+Shift:  -7.342936
+Given R: 12.85013672248
+
+C0 Weight: 0.89149356
+C+1 Weight: 0.00054723787
+C-1 Weight: 0.0018018099
+C+2 Weight: 0.07258455
+Cexc1 Weight: 0.00047974414
+Cexc2 Weight: 0.029228859
+Cexc3 Weight: 0.00349593
+Sum: 0.9996316865144763
+
+O0 Weight: 0.6458324
+O+1 Weight: 0.00052956014
+O-1 Weight: 0.0007598605
+O-2 Weight: 0.07190212
+Oexc1 Weight: 0.1835571
+Oexc2 Weight: 0.0982896
+Sum: 1.000870653311722
+
+C Eff. Charge 0.14391452219570056
+O Eff. Charge -0.14403453760314733
+
+Total Charge:  -0.00012001540744677186
+
+Electrons integrated (actual): 12.8391
+actual px = -0.0465 D
+actual py = -0.0465 D
+actual pz = +0.4514 D
+|p| = 0.4561 D
+
+
+Electrons integrated (pred): 12.8792
+pred px = -0.0459 D
+pred py = -0.0459 D
+pred pz = -4.2884 D
+|p| = 4.2889 D
+
+Electron count (raw approx): 12.839143202422855
+RMSE:  0.0073126923251784935
+Elapsed time for 6.80 A: 1 min 31 s
+
+-------------------------------------------------------
+Separation:  6.60
+
+
+Shift:  -7.126967
+Given R: 12.47219152476
+
+C0 Weight: 0.87744707
+C+1 Weight: 0.0017976925
+C-1 Weight: 0.0121686235
+C+2 Weight: 0.07795735
+Cexc1 Weight: 0.00064941606
+Cexc2 Weight: 0.024591718
+Cexc3 Weight: 0.005743921
+Sum: 1.0003557864692993
+
+O0 Weight: 0.6334532
+O+1 Weight: 0.0010363036
+O-1 Weight: 0.0038124928
+O-2 Weight: 0.07010297
+Oexc1 Weight: 0.18822865
+Oexc2 Weight: 0.10355219
+Sum: 1.0001857983879745
+
+C Eff. Charge 0.14554376306477934
+O Eff. Charge -0.14298212388530374
+
+Total Charge:  0.0025616391794756055
+
+Electrons integrated (actual): 12.8564
+actual px = -0.0474 D
+actual py = -0.0474 D
+actual pz = +0.1304 D
+|p| = 0.1466 D
+
+
+Electrons integrated (pred): 12.8920
+pred px = -0.0467 D
+pred py = -0.0467 D
+pred pz = -4.3321 D
+|p| = 4.3326 D
+
+Electron count (raw approx): 12.856376957943219
+RMSE:  0.007361242569254528
+Elapsed time for 6.60 A: 1 min 24 s
+
+-------------------------------------------------------
+Separation:  6.40
+
+
+Shift:  -6.910998
+Given R: 12.09424632704
+
+C0 Weight: 0.87465066
+C+1 Weight: 0.006492676
+C-1 Weight: 0.004499658
+C+2 Weight: 0.08598005
+Cexc1 Weight: 0.00048223144
+Cexc2 Weight: 0.026635524
+Cexc3 Weight: 0.00090396305
+Sum: 0.999644760042429
+
+O0 Weight: 0.6112935
+O+1 Weight: 0.000722713
+O-1 Weight: 0.010094911
+O-2 Weight: 0.08168385
+Oexc1 Weight: 0.19398887
+Oexc2 Weight: 0.10200338
+Sum: 0.9997872255626135
+
+C Eff. Charge 0.17395311873406172
+O Eff. Charge -0.1727399014052935
+
+Total Charge:  0.0012132173287682235
+
+Electrons integrated (actual): 12.7752
+actual px = -0.0430 D
+actual py = -0.0430 D
+actual pz = +1.1374 D
+|p| = 1.1391 D
+
+
+Electrons integrated (pred): 12.8085
+pred px = -0.0426 D
+pred py = -0.0426 D
+pred pz = -4.1103 D
+|p| = 4.1107 D
+
+Electron count (raw approx): 12.77520699795898
+RMSE:  0.007400511328980491
+Elapsed time for 6.40 A: 1 min 32 s
+
+-------------------------------------------------------
+Separation:  6.20
+
+
+Shift:  -6.69503
+Given R: 11.71630112932
+
+C0 Weight: 0.87003064
+C+1 Weight: 0.009600954
+C-1 Weight: 0.001323422
+C+2 Weight: 0.09741551
+Cexc1 Weight: 0.0016835482
+Cexc2 Weight: 0.022388905
+Cexc3 Weight: 0.0017481309
+Sum: 1.0041911088628694
+
+O0 Weight: 0.59500283
+O+1 Weight: 0.00068571034
+O-1 Weight: 0.000808457
+O-2 Weight: 0.101111285
+Oexc1 Weight: 0.20476474
+Oexc2 Weight: 0.09724918
+Sum: 0.9996222015470266
+
+C Eff. Charge 0.20310854585841298
+O Eff. Charge -0.2023453174624592
+
+Total Charge:  0.0007632283959537745
+
+Electrons integrated (actual): 12.6535
+actual px = -0.0366 D
+actual py = -0.0366 D
+actual pz = +2.6491 D
+|p| = 2.6496 D
+
+
+Electrons integrated (pred): 12.7147
+pred px = -0.0365 D
+pred py = -0.0365 D
+pred pz = -2.8876 D
+|p| = 2.8880 D
+
+Electron count (raw approx): 12.653496223103536
+RMSE:  0.007448617270096832
+Elapsed time for 6.20 A: 1 min 1 s
+
+-------------------------------------------------------
+Separation:  6.00
+
+
+Shift:  -6.479061
+Given R: 11.338355931599999
+
+C0 Weight: 0.8570943
+C+1 Weight: 0.0170657
+C-1 Weight: 0.00042032354
+C+2 Weight: 0.12367008
+Cexc1 Weight: 0.00050671364
+Cexc2 Weight: 0.0010378914
+Cexc3 Weight: 0.000521478
+Sum: 1.0003164733934682
+
+O0 Weight: 0.5639573
+O+1 Weight: 0.0005679425
+O-1 Weight: 0.0002954505
+O-2 Weight: 0.1318632
+Oexc1 Weight: 0.22140366
+Oexc2 Weight: 0.08153332
+Sum: 0.999620852235239
+
+C Eff. Charge 0.263985534227686
+O Eff. Charge -0.2634539212449454
+
+Total Charge:  0.0005316129827406257
+
+Electrons integrated (actual): 12.5725
+actual px = -0.0325 D
+actual py = -0.0325 D
+actual pz = +3.6102 D
+|p| = 3.6105 D
+
+
+Electrons integrated (pred): 12.6119
+pred px = -0.0326 D
+pred py = -0.0326 D
+pred pz = -3.7318 D
+|p| = 3.7321 D
+
+Electron count (raw approx): 12.572466744096289
+RMSE:  0.007531379411507749
+Elapsed time for 6.00 A: 1 min 50 s
+
+-------------------------------------------------------
+Separation:  5.80
+
+
+Shift:  -6.263092
+Given R: 10.96041073388
+
+C0 Weight: 0.83676326
+C+1 Weight: 0.018056983
+C-1 Weight: 0.00051225437
+C+2 Weight: 0.14349644
+Cexc1 Weight: 0.00039995398
+Cexc2 Weight: 0.00041402748
+Cexc3 Weight: 0.00038724698
+Sum: 1.000030167546356
+
+O0 Weight: 0.5383537
+O+1 Weight: 0.0006243045
+O-1 Weight: 0.00033690492
+O-2 Weight: 0.15231474
+Oexc1 Weight: 0.23905657
+Oexc2 Weight: 0.06932281
+Sum: 1.0000090103421826
+
+C Eff. Charge 0.304537606483791
+O Eff. Charge -0.3043420752801467
+
+Total Charge:  0.00019553120364435017
+
+Electrons integrated (actual): 12.5824
+actual px = -0.0330 D
+actual py = -0.0330 D
+actual pz = +3.4352 D
+|p| = 3.4355 D
+
+
+Electrons integrated (pred): 12.6223
+pred px = -0.0330 D
+pred py = -0.0330 D
+pred pz = -4.8203 D
+|p| = 4.8205 D
+
+Electron count (raw approx): 12.58244233453028
+RMSE:  0.007584859981847266
+Elapsed time for 5.80 A: 1 min 49 s
+
+-------------------------------------------------------
+Separation:  5.60
+
+
+Shift:  -6.047124
+Given R: 10.582465536159999
+
+C0 Weight: 0.8325472
+C+1 Weight: 0.015216461
+C-1 Weight: 0.0004820332
+C+2 Weight: 0.15031236
+Cexc1 Weight: 0.00042031516
+Cexc2 Weight: 0.00042326722
+Cexc3 Weight: 0.0003913816
+Sum: 0.9997930104727857
+
+O0 Weight: 0.528772
+O+1 Weight: 0.000562111
+O-1 Weight: 0.00049305445
+O-2 Weight: 0.15752378
+Oexc1 Weight: 0.24923609
+Oexc2 Weight: 0.06361367
+Sum: 1.000200703041628
+
+C Eff. Charge 0.3153591563750524
+O Eff. Charge -0.31497850560117513
+
+Total Charge:  0.00038065077387727797
+
+Electrons integrated (actual): 12.6774
+actual px = -0.0378 D
+actual py = -0.0378 D
+actual pz = +2.2616 D
+|p| = 2.2622 D
+
+
+Electrons integrated (pred): 12.7140
+pred px = -0.0376 D
+pred py = -0.0376 D
+pred pz = -5.9925 D
+|p| = 5.9927 D
+
+Electron count (raw approx): 12.6773867338878
+RMSE:  0.007654512506115093
+Elapsed time for 5.60 A: 1 min 34 s
+
+-------------------------------------------------------
+Separation:  5.40
+
+
+Shift:  -5.831155
+Given R: 10.20452033844
+
+C0 Weight: 0.8328399
+C+1 Weight: 0.013376087
+C-1 Weight: 0.0070749843
+C+2 Weight: 0.14505748
+Cexc1 Weight: 0.00057846284
+Cexc2 Weight: 0.00061684527
+Cexc3 Weight: 0.0005931652
+Sum: 1.0001369352685288
+
+O0 Weight: 0.53477913
+O+1 Weight: 0.0005422412
+O-1 Weight: 0.0021004877
+O-2 Weight: 0.14723606
+Oexc1 Weight: 0.2505156
+Oexc2 Weight: 0.064645454
+Sum: 0.9998189886682667
+
+C Eff. Charge 0.29641607170924544
+O Eff. Charge -0.2960303746513091
+
+Total Charge:  0.00038569705793634057
+
+Electrons integrated (actual): 12.7976
+actual px = -0.0442 D
+actual py = -0.0442 D
+actual pz = +0.8281 D
+|p| = 0.8305 D
+
+
+Electrons integrated (pred): 12.8299
+pred px = -0.0437 D
+pred py = -0.0437 D
+pred pz = -6.5488 D
+|p| = 6.5491 D
+
+Electron count (raw approx): 12.797604640383073
+RMSE:  0.007731064623362186
+Elapsed time for 5.40 A: 1 min 43 s
+
+-------------------------------------------------------
+Separation:  5.20
+
+
+Shift:  -5.615186
+Given R: 9.82657514072
+
+C0 Weight: 0.83460504
+C+1 Weight: 0.0024536054
+C-1 Weight: 0.021711597
+C+2 Weight: 0.13930047
+Cexc1 Weight: 0.00065791025
+Cexc2 Weight: 0.0008088543
+Cexc3 Weight: 0.00069894356
+Sum: 1.0002364144893363
+
+O0 Weight: 0.5479319
+O+1 Weight: 0.00022500312
+O-1 Weight: 0.009316546
+O-2 Weight: 0.1263223
+Oexc1 Weight: 0.24805075
+Oexc2 Weight: 0.06856153
+Sum: 1.0004080387443537
+
+C Eff. Charge 0.25934293936006725
+O Eff. Charge -0.2617361412703758
+
+Total Charge:  -0.0023932019103085622
+
+Electrons integrated (actual): 12.8616
+actual px = -0.0477 D
+actual py = -0.0477 D
+actual pz = +0.0441 D
+|p| = 0.0806 D
+
+
+Electrons integrated (pred): 12.9008
+pred px = -0.0470 D
+pred py = -0.0470 D
+pred pz = -6.2065 D
+|p| = 6.2068 D
+
+Electron count (raw approx): 12.861604111988976
+RMSE:  0.007802921530529184
+Elapsed time for 5.20 A: 1 min 27 s
+
+-------------------------------------------------------
+Separation:  5.00
+
+
+Shift:  -5.399217
+Given R: 9.448629943
+
+C0 Weight: 0.83982015
+C+1 Weight: 0.0013454903
+C-1 Weight: 0.021339402
+C+2 Weight: 0.13495816
+Cexc1 Weight: -0.0
+Cexc2 Weight: 5.2912234e-05
+Cexc3 Weight: 6.8963436e-06
+Sum: 0.9975230099826149
+
+O0 Weight: 0.5543861
+O+1 Weight: 0.00032638846
+O-1 Weight: 0.007609764
+O-2 Weight: 0.12126944
+Oexc1 Weight: 0.2467312
+Oexc2 Weight: 0.068940505
+Sum: 0.999263386183884
+
+C Eff. Charge 0.24992241454310715
+O Eff. Charge -0.24982225993881002
+
+Total Charge:  0.0001001546042971313
+
+Electrons integrated (actual): 12.8234
+actual px = -0.0456 D
+actual py = -0.0456 D
+actual pz = +0.3559 D
+|p| = 0.3617 D
+
+
+Electrons integrated (pred): 12.8394
+pred px = -0.0450 D
+pred py = -0.0450 D
+pred pz = -5.5377 D
+|p| = 5.5381 D
+
+Electron count (raw approx): 12.823369119461637
+RMSE:  0.007846517600648544
+Elapsed time for 5.00 A: 2 min 7 s
+
+-------------------------------------------------------
+Separation:  4.70
+
+
+Shift:  -5.075264
+Given R: 8.88171214642
+
+C0 Weight: 0.8444907
+C+1 Weight: 0.0023745908
+C-1 Weight: 0.01613925
+C+2 Weight: 0.13531163
+Cexc1 Weight: 0.00031771557
+Cexc2 Weight: 0.00048021434
+Cexc3 Weight: 0.00036471974
+Sum: 0.9994788310141303
+
+O0 Weight: 0.55511314
+O+1 Weight: 0.00035729448
+O-1 Weight: 0.00049957325
+O-2 Weight: 0.12831905
+Oexc1 Weight: 0.24904202
+Oexc2 Weight: 0.066283
+Sum: 0.9996140810835641
+
+C Eff. Charge 0.25685860728845
+O Eff. Charge -0.2567803884448949
+
+Total Charge:  7.821884355507791e-05
+
+Electrons integrated (actual): 12.7714
+actual px = -0.0428 D
+actual py = -0.0428 D
+actual pz = +0.9506 D
+|p| = 0.9525 D
+
+
+Electrons integrated (pred): 12.8014
+pred px = -0.0424 D
+pred py = -0.0424 D
+pred pz = -4.5945 D
+|p| = 4.5949 D
+
+Electron count (raw approx): 12.771403206430502
+RMSE:  0.007966961490209692
+Elapsed time for 4.70 A: 1 min 46 s
+
+-------------------------------------------------------
+Separation:  4.50
+
+
+Shift:  -4.859296
+Given R: 8.5037669487
+
+C0 Weight: 0.8496244
+C+1 Weight: 0.0009875913
+C-1 Weight: 0.01809591
+C+2 Weight: 0.1283219
+Cexc1 Weight: 0.00053535344
+Cexc2 Weight: 0.0013870492
+Cexc3 Weight: 0.00057865673
+Sum: 0.9995308576035313
+
+O0 Weight: 0.5624129
+O+1 Weight: 0.0004263351
+O-1 Weight: 0.005985755
+O-2 Weight: 0.11727011
+Oexc1 Weight: 0.2455732
+Oexc2 Weight: 0.068396084
+Sum: 1.00006439659046
+
+C Eff. Charge 0.23953548271674663
+O Eff. Charge -0.24009964399738237
+
+Total Charge:  -0.0005641612806357443
+
+Electrons integrated (actual): 12.8551
+actual px = -0.0473 D
+actual py = -0.0473 D
+actual pz = +0.0612 D
+|p| = 0.0907 D
+
+
+Electrons integrated (pred): 12.8873
+pred px = -0.0467 D
+pred py = -0.0467 D
+pred pz = -4.8734 D
+|p| = 4.8739 D
+
+Electron count (raw approx): 12.855109019618014
+RMSE:  0.00804632184183288
+Elapsed time for 4.50 A: 1 min 35 s
+
+-------------------------------------------------------
+Separation:  4.30
+
+
+Shift:  -4.643327
+Given R: 8.12582175098
+
+C0 Weight: 0.861267
+C+1 Weight: 0.00047020966
+C-1 Weight: 0.013232256
+C+2 Weight: 0.124366656
+Cexc1 Weight: 0.0006026707
+Cexc2 Weight: 0.0010660469
+Cexc3 Weight: 0.00064440054
+Sum: 1.0016492106660735
+
+O0 Weight: 0.5644345
+O+1 Weight: 6.1936196e-05
+O-1 Weight: 0.009402781
+O-2 Weight: 0.11323056
+Oexc1 Weight: 0.24195534
+Oexc2 Weight: 0.069386765
+Sum: 0.9984719143103575
+
+C Eff. Charge 0.2359712652687449
+O Eff. Charge -0.23580197199771646
+
+Total Charge:  0.00016929327102843672
+
+Electrons integrated (actual): 12.8413
+actual px = -0.0466 D
+actual py = -0.0466 D
+actual pz = +0.0753 D
+|p| = 0.1000 D
+
+
+Electrons integrated (pred): 12.8741
+pred px = -0.0460 D
+pred py = -0.0460 D
+pred pz = -4.2959 D
+|p| = 4.2964 D
+
+Electron count (raw approx): 12.841312387840564
+RMSE:  0.008104564086990743
+Elapsed time for 4.30 A: 2 min 43 s
+
+-------------------------------------------------------
+Separation:  4.10
+
+
+Shift:  -4.427358
+Given R: 7.747876553259999
+
+C0 Weight: 0.8633755
+C+1 Weight: 0.0045112367
+C-1 Weight: 0.00018367922
+C+2 Weight: 0.1303992
+Cexc1 Weight: 0.0001892563
+Cexc2 Weight: 0.0002231528
+Cexc3 Weight: 0.00017194336
+Sum: 0.9990539506543428
+
+O0 Weight: 0.55392915
+O+1 Weight: 0.0005005276
+O-1 Weight: 0.00034618948
+O-2 Weight: 0.13227524
+Oexc1 Weight: 0.2483773
+Oexc2 Weight: 0.06469067
+Sum: 1.0001190710463561
+
+C Eff. Charge 0.2651259521371685
+O Eff. Charge -0.26439613912953064
+
+Total Charge:  0.0007298130076378584
+
+Electrons integrated (actual): 12.7400
+actual px = -0.0411 D
+actual py = -0.0411 D
+actual pz = +0.8331 D
+|p| = 0.8351 D
+
+
+Electrons integrated (pred): 12.7734
+pred px = -0.0408 D
+pred py = -0.0408 D
+pred pz = -4.1272 D
+|p| = 4.1276 D
+
+Electron count (raw approx): 12.740042880957375
+RMSE:  0.00815339359997226
+Elapsed time for 4.10 A: 2 min 16 s
+
+-------------------------------------------------------
+Separation:  3.90
+
+
+Shift:  -4.21139
+Given R: 7.3699313555399995
+
+C0 Weight: 0.8461552
+C+1 Weight: 0.00808689
+C-1 Weight: 0.0014334985
+C+2 Weight: 0.14315844
+Cexc1 Weight: 0.0012570797
+Cexc2 Weight: 0.0013005714
+Cexc3 Weight: 0.0012480123
+Sum: 1.0026397138135508
+
+O0 Weight: 0.53780186
+O+1 Weight: 0.0005295197
+O-1 Weight: 0.00047150656
+O-2 Weight: 0.14656797
+Oexc1 Weight: 0.25772855
+Oexc2 Weight: 0.05452835
+Sum: 0.9976277535315603
+
+C Eff. Charge 0.2929702631663531
+O Eff. Charge -0.2930779278976843
+
+Total Charge:  -0.0001076647313311696
+
+Electrons integrated (actual): 12.6224
+actual px = -0.0350 D
+actual py = -0.0350 D
+actual pz = +1.6736 D
+|p| = 1.6743 D
+
+
+Electrons integrated (pred): 12.6624
+pred px = -0.0350 D
+pred py = -0.0350 D
+pred pz = -3.1696 D
+|p| = 3.1700 D
+
+Electron count (raw approx): 12.622361838412909
+RMSE:  0.008182591161855771
+Elapsed time for 3.90 A: 0 min 55 s
+
+-------------------------------------------------------
+Separation:  3.70
+
+
+Shift:  -3.995421
+Given R: 6.99198615782
+
+C0 Weight: 0.81647164
+C+1 Weight: 0.0133412955
+C-1 Weight: 0.00055288774
+C+2 Weight: 0.16885264
+Cexc1 Weight: 0.00038347434
+Cexc2 Weight: 0.00036628408
+Cexc3 Weight: 0.00035055843
+Sum: 1.0003187785914633
+
+O0 Weight: 0.5074945
+O+1 Weight: 0.00040291253
+O-1 Weight: 0.00046533678
+O-2 Weight: 0.17567652
+Oexc1 Weight: 0.2810776
+Oexc2 Weight: 0.035278853
+Sum: 1.0003957297594752
+
+C Eff. Charge 0.3504936921526678
+O Eff. Charge -0.35141547353123315
+
+Total Charge:  -0.0009217813785653561
+
+Electrons integrated (actual): 12.5650
+actual px = -0.0321 D
+actual py = -0.0321 D
+actual pz = +1.9639 D
+|p| = 1.9644 D
+
+
+Electrons integrated (pred): 12.6102
+pred px = -0.0322 D
+pred py = -0.0322 D
+pred pz = -3.7332 D
+|p| = 3.7335 D
+
+Electron count (raw approx): 12.565024780210798
+RMSE:  0.008310134800931575
+Elapsed time for 3.70 A: 2 min 24 s
+
+-------------------------------------------------------
+Separation:  3.50
+
+
+Shift:  -3.779452
+Given R: 6.6140409601
+
+C0 Weight: 0.79721993
+C+1 Weight: 0.016713798
+C-1 Weight: 0.00025902997
+C+2 Weight: 0.18483885
+Cexc1 Weight: 0.00046612578
+Cexc2 Weight: 0.00043681782
+Cexc3 Weight: 0.0003822647
+Sum: 1.0003168147231918
+
+O0 Weight: 0.48763368
+O+1 Weight: 0.00064836664
+O-1 Weight: 0.00016824025
+O-2 Weight: 0.1926014
+Oexc1 Weight: 0.2978765
+Oexc2 Weight: 0.020920234
+Sum: 0.9998484207026195
+
+C Eff. Charge 0.38613246072782204
+O Eff. Charge -0.38472266888129525
+
+Total Charge:  0.0014097918465267867
+
+Electrons integrated (actual): 12.6031
+actual px = -0.0340 D
+actual py = -0.0340 D
+actual pz = +1.4618 D
+|p| = 1.4626 D
+
+
+Electrons integrated (pred): 12.6406
+pred px = -0.0340 D
+pred py = -0.0340 D
+pred pz = -4.2748 D
+|p| = 4.2750 D
+
+Electron count (raw approx): 12.603123477519048
+RMSE:  0.008349639798898583
+Elapsed time for 3.50 A: 1 min 37 s
+
+-------------------------------------------------------
+Separation:  3.30
+
+
+Shift:  -3.563484
+Given R: 6.23609576238
+
+C0 Weight: 0.8000279
+C+1 Weight: 0.011219832
+C-1 Weight: 0.0004487359
+C+2 Weight: 0.18695498
+Cexc1 Weight: 0.00027624916
+Cexc2 Weight: 0.00024575656
+Cexc3 Weight: 0.00021400291
+Sum: 0.9993874586652964
+
+O0 Weight: 0.48522946
+O+1 Weight: 0.00039649312
+O-1 Weight: 0.0004718298
+O-2 Weight: 0.19255382
+Oexc1 Weight: 0.30711213
+Oexc2 Weight: 0.014753787
+Sum: 1.000517517910339
+
+C Eff. Charge 0.384681046474725
+O Eff. Charge -0.3851829731138423
+
+Total Charge:  -0.0005019266391173005
+
+Electrons integrated (actual): 12.7134
+actual px = -0.0397 D
+actual py = -0.0397 D
+actual pz = +0.3658 D
+|p| = 0.3701 D
+
+
+Electrons integrated (pred): 12.7493
+pred px = -0.0394 D
+pred py = -0.0394 D
+pred pz = -4.7968 D
+|p| = 4.7972 D
+
+Electron count (raw approx): 12.713431549347064
+RMSE:  0.008388753687040621
+Elapsed time for 3.30 A: 2 min 6 s
+
+-------------------------------------------------------
+Separation:  3.10
+
+
+Shift:  -3.347515
+Given R: 5.85815056466
+
+C0 Weight: 0.8061056
+C+1 Weight: 0.0025461325
+C-1 Weight: 0.0052553844
+C+2 Weight: 0.18327922
+Cexc1 Weight: 0.00030635635
+Cexc2 Weight: 0.00034371094
+Cexc3 Weight: 0.00031451328
+Sum: 0.9981509274803102
+
+O0 Weight: 0.4953574
+O+1 Weight: 0.00065013254
+O-1 Weight: 0.007893868
+O-2 Weight: 0.17786178
+Oexc1 Weight: 0.305498
+Oexc2 Weight: 0.012730813
+Sum: 0.9999919910915196
+
+C Eff. Charge 0.36384918075054884
+O Eff. Charge -0.3629672951065004
+
+Total Charge:  0.0008818856440484524
+
+Electrons integrated (actual): 12.8250
+actual px = -0.0457 D
+actual py = -0.0457 D
+actual pz = -0.8469 D
+|p| = 0.8494 D
+
+
+Electrons integrated (pred): 12.8466
+pred px = -0.0451 D
+pred py = -0.0451 D
+pred pz = -4.9549 D
+|p| = 4.9553 D
+
+Electron count (raw approx): 12.824969879221786
+RMSE:  0.008370806326205796
+Elapsed time for 3.10 A: 1 min 10 s
+
+-------------------------------------------------------
+Separation:  2.95
+
+
+Shift:  -3.185538
+Given R: 5.574691666370001
+
+C0 Weight: 0.7986114
+C+1 Weight: 0.006222498
+C-1 Weight: 0.0002905478
+C+2 Weight: 0.19365916
+Cexc1 Weight: 0.00036772966
+Cexc2 Weight: 0.00038112034
+Cexc3 Weight: 0.00036771767
+Sum: 0.9999001726682764
+
+O0 Weight: 0.48932675
+O+1 Weight: 0.0005611365
+O-1 Weight: 0.0005427318
+O-2 Weight: 0.19644652
+Oexc1 Weight: 0.31279677
+Oexc2 Weight: 0.0007616215
+Sum: 1.0004355296841823
+
+C Eff. Charge 0.3932502634706907
+O Eff. Charge -0.3928746414021589
+
+Total Charge:  0.00037562206853181124
+
+Electrons integrated (actual): 12.6985
+actual px = -0.0390 D
+actual py = -0.0390 D
+actual pz = -0.4861 D
+|p| = 0.4892 D
+
+
+Electrons integrated (pred): 12.7371
+pred px = -0.0387 D
+pred py = -0.0387 D
+pred pz = -4.2753 D
+|p| = 4.2757 D
+
+Electron count (raw approx): 12.698517851498774
+RMSE:  0.008292477686514914
+Elapsed time for 2.95 A: 1 min 57 s
+
+-------------------------------------------------------
+Separation:  2.85
+
+
+Shift:  -3.077554
+Given R: 5.38571906751
+
+C0 Weight: 0.7800154
+C+1 Weight: 0.0084002195
+C-1 Weight: 0.0005748243
+C+2 Weight: 0.20982476
+Cexc1 Weight: 0.0006496587
+Cexc2 Weight: 0.00070843066
+Cexc3 Weight: 0.0006410723
+Sum: 1.0008143701707013
+
+O0 Weight: 0.4703664
+O+1 Weight: 0.0003478216
+O-1 Weight: 0.00043801434
+O-2 Weight: 0.21369745
+Oexc1 Weight: 0.31372425
+Oexc2 Weight: 0.00044816063
+Sum: 0.999022083095042
+
+C Eff. Charge 0.4274749067844823
+O Eff. Charge -0.42748508948716335
+
+Total Charge:  -1.0182702681049705e-05
+
+Electrons integrated (actual): 12.6597
+actual px = -0.0370 D
+actual py = -0.0370 D
+actual pz = -0.8043 D
+|p| = 0.8060 D
+
+
+Electrons integrated (pred): 12.6961
+pred px = -0.0367 D
+pred py = -0.0367 D
+pred pz = -4.4610 D
+|p| = 4.4613 D
+
+Electron count (raw approx): 12.659723958663328
+RMSE:  0.008148282832268594
+Elapsed time for 2.85 A: 1 min 21 s
+
+-------------------------------------------------------
+Separation:  2.75
+
+
+Shift:  -2.96957
+Given R: 5.19674646865
+
+C0 Weight: 0.77883434
+C+1 Weight: 0.0034258699
+C-1 Weight: 0.0010891585
+C+2 Weight: 0.21291645
+Cexc1 Weight: 0.0006935706
+Cexc2 Weight: 0.0035445872
+Cexc3 Weight: 0.00071613427
+Sum: 1.0012201120262034
+
+O0 Weight: 0.4732936
+O+1 Weight: 0.00040801405
+O-1 Weight: 0.01683561
+O-2 Weight: 0.20617591
+Oexc1 Weight: 0.3030469
+Oexc2 Weight: 0.00077609974
+Sum: 1.000536146108061
+
+C Eff. Charge 0.42816960881464183
+O Eff. Charge -0.42877941229380667
+
+Total Charge:  -0.0006098034791648388
+
+Electrons integrated (actual): 12.8139
+actual px = -0.0452 D
+actual py = -0.0452 D
+actual pz = -1.9606 D
+|p| = 1.9617 D
+
+
+Electrons integrated (pred): 12.8571
+pred px = -0.0445 D
+pred py = -0.0445 D
+pred pz = -5.0389 D
+|p| = 5.0393 D
+
+Electron count (raw approx): 12.813942876799771
+RMSE:  0.008113695069231805
+Elapsed time for 2.75 A: 1 min 33 s
+
+-------------------------------------------------------
+Separation:  2.65
+
+
+Shift:  -2.861585
+Given R: 5.007773869789999
+
+C0 Weight: 0.7533392
+C+1 Weight: 0.013598953
+C-1 Weight: 0.0014885011
+C+2 Weight: 0.23021308
+Cexc1 Weight: 0.0016535402
+Cexc2 Weight: 0.0017933742
+Cexc3 Weight: 0.001711359
+Sum: 1.0037979751359671
+
+O0 Weight: 0.4546679
+O+1 Weight: 0.0009968173
+O-1 Weight: 0.0024352213
+O-2 Weight: 0.23515327
+Oexc1 Weight: 0.30450332
+Oexc2 Weight: 0.0012460545
+Sum: 0.9990025835577399
+
+C Eff. Charge 0.47253660403657705
+O Eff. Charge -0.4717449495801702
+
+Total Charge:  0.0007916544564068317
+
+Electrons integrated (actual): 12.5744
+actual px = -0.0327 D
+actual py = -0.0327 D
+actual pz = -1.1811 D
+|p| = 1.1820 D
+
+
+Electrons integrated (pred): 12.6239
+pred px = -0.0325 D
+pred py = -0.0325 D
+pred pz = -4.0037 D
+|p| = 4.0040 D
+
+Electron count (raw approx): 12.574372907361658
+RMSE:  0.007953230138807952
+Elapsed time for 2.65 A: 0 min 45 s
+
+-------------------------------------------------------
+Separation:  2.55
+
+
+Shift:  -2.753601
+Given R: 4.81880127093
+
+C0 Weight: 0.7490574
+C+1 Weight: 0.0057480214
+C-1 Weight: 0.00052083033
+C+2 Weight: 0.23973021
+Cexc1 Weight: 0.0004411944
+Cexc2 Weight: 0.004584434
+Cexc3 Weight: 0.0005423968
+Sum: 1.0006244981777854
+
+O0 Weight: 0.45654246
+O+1 Weight: 0.0005716404
+O-1 Weight: 0.029247046
+O-2 Weight: 0.22771814
+Oexc1 Weight: 0.28585395
+Oexc2 Weight: 0.00068572507
+Sum: 1.0006189699051902
+
+C Eff. Charge 0.4846876093070023
+O Eff. Charge -0.4841116944444366
+
+Total Charge:  0.0005759148625656962
+
+Electrons integrated (actual): 12.8603
+actual px = -0.0478 D
+actual py = -0.0478 D
+actual pz = -3.1529 D
+|p| = 3.1536 D
+
+
+Electrons integrated (pred): 12.8977
+pred px = -0.0469 D
+pred py = -0.0469 D
+pred pz = -5.6596 D
+|p| = 5.6600 D
+
+Electron count (raw approx): 12.860277911054562
+RMSE:  0.0077549494640937
+Elapsed time for 2.55 A: 1 min 31 s
+
+-------------------------------------------------------
+Separation:  2.45
+
+
+Shift:  -2.645617
+Given R: 4.62982867207
+
+C0 Weight: 0.7200285
+C+1 Weight: 0.009721033
+C-1 Weight: 0.0009198144
+C+2 Weight: 0.26681468
+Cexc1 Weight: 0.0007217035
+Cexc2 Weight: 0.00081388827
+Cexc3 Weight: 0.0007796861
+Sum: 0.999799324083142
+
+O0 Weight: 0.43610325
+O+1 Weight: 0.00069910905
+O-1 Weight: 0.005356281
+O-2 Weight: 0.269063
+Oexc1 Weight: 0.28726563
+Oexc2 Weight: 0.0009781009
+Sum: 0.9994653700850904
+
+C Eff. Charge 0.5424305766937323
+O Eff. Charge -0.5427831638371572
+
+Total Charge:  -0.0003525871434248984
+
+Electrons integrated (actual): 12.5785
+actual px = -0.0329 D
+actual py = -0.0329 D
+actual pz = -2.1257 D
+|p| = 2.1262 D
+
+
+Electrons integrated (pred): 12.6081
+pred px = -0.0325 D
+pred py = -0.0325 D
+pred pz = -4.6047 D
+|p| = 4.6049 D
+
+Electron count (raw approx): 12.578527154161307
+RMSE:  0.007491580726104048
+Elapsed time for 2.45 A: 1 min 1 s
+
+-------------------------------------------------------
+Separation:  2.35
+
+
+Shift:  -2.537632
+Given R: 4.44085607321
+
+C0 Weight: 0.702714
+C+1 Weight: 0.005603336
+C-1 Weight: 0.00083977263
+C+2 Weight: 0.28581312
+Cexc1 Weight: 0.00073103607
+Cexc2 Weight: 0.0028596607
+Cexc3 Weight: 0.00083284866
+Sum: 0.999393802776467
+
+O0 Weight: 0.42724004
+O+1 Weight: 0.00025825904
+O-1 Weight: 0.020720612
+O-2 Weight: 0.2783838
+Oexc1 Weight: 0.2719272
+Oexc2 Weight: 0.00075446477
+Sum: 0.9992843790969346
+
+C Eff. Charge 0.5763898091390729
+O Eff. Charge -0.5772299361124169
+
+Total Charge:  -0.0008401269733440131
+
+Electrons integrated (actual): 12.8036
+actual px = -0.0448 D
+actual py = -0.0448 D
+actual pz = -3.7788 D
+|p| = 3.7794 D
+
+
+Electrons integrated (pred): 12.8260
+pred px = -0.0438 D
+pred py = -0.0438 D
+pred pz = -6.0031 D
+|p| = 6.0034 D
+
+Electron count (raw approx): 12.803621636081933
+RMSE:  0.007132394141787567
+Elapsed time for 2.35 A: 0 min 59 s
+
+-------------------------------------------------------
+Separation:  2.25
+
+
+Shift:  -2.429648
+Given R: 4.25188347435
+
+C0 Weight: 0.67781395
+C+1 Weight: 0.005836605
+C-1 Weight: 0.00087675126
+C+2 Weight: 0.30947176
+Cexc1 Weight: 0.0008435592
+Cexc2 Weight: 0.0042958376
+Cexc3 Weight: 0.0008922745
+Sum: 1.0000307310838252
+
+O0 Weight: 0.4035783
+O+1 Weight: 0.0013835202
+O-1 Weight: 0.0361958
+O-2 Weight: 0.29358396
+Oexc1 Weight: 0.26367837
+Oexc2 Weight: 0.0014722055
+Sum: 0.999892167863436
+
+C Eff. Charge 0.6239033662714064
+O Eff. Charge -0.6219801981933415
+
+Total Charge:  0.0019231680780649185
+
+Electrons integrated (actual): 12.6688
+actual px = -0.0376 D
+actual py = -0.0376 D
+actual pz = -3.3412 D
+|p| = 3.3416 D
+
+
+Electrons integrated (pred): 12.6963
+pred px = -0.0368 D
+pred py = -0.0368 D
+pred pz = -5.4332 D
+|p| = 5.4334 D
+
+Electron count (raw approx): 12.668781881985336
+RMSE:  0.006723038275626969
+Elapsed time for 2.25 A: 0 min 51 s
+
+-------------------------------------------------------
+Separation:  2.15
+
+
+Shift:  -2.321664
+Given R: 4.06291087549
+
+C0 Weight: 0.6446324
+C+1 Weight: 0.0083710365
+C-1 Weight: -0.0
+C+2 Weight: 0.34137687
+Cexc1 Weight: -0.0
+Cexc2 Weight: 0.000595094
+Cexc3 Weight: 5.4489574e-06
+Sum: 0.9949808494056924
+
+O0 Weight: 0.37177825
+O+1 Weight: 0.001065009
+O-1 Weight: 0.03728795
+O-2 Weight: 0.32686287
+Oexc1 Weight: 0.26139957
+Oexc2 Weight: 0.0011662338
+Sum: 0.9995598818641156
+
+C Eff. Charge 0.6911247782409191
+O Eff. Charge -0.6899486847687513
+
+Total Charge:  0.0011760934721678495
+
+Electrons integrated (actual): 12.6848
+actual px = -0.0386 D
+actual py = -0.0386 D
+actual pz = -3.8160 D
+|p| = 3.8164 D
+
+
+Electrons integrated (pred): 12.6851
+pred px = -0.0375 D
+pred py = -0.0375 D
+pred pz = -6.2834 D
+|p| = 6.2836 D
+
+Electron count (raw approx): 12.684767655409487
+RMSE:  0.006027414518125166
+Elapsed time for 2.15 A: 0 min 57 s
+
+-------------------------------------------------------
+Separation:  2.05
+
+
+Shift:  -2.213679
+Given R: 3.8739382766299997
+
+C0 Weight: 0.6170589
+C+1 Weight: 0.003057196
+C-1 Weight: 0.00036700317
+C+2 Weight: 0.37198073
+Cexc1 Weight: -0.0
+Cexc2 Weight: 0.0032939296
+Cexc3 Weight: 0.00033363397
+Sum: 0.9960913627000991
+
+O0 Weight: 0.3422417
+O+1 Weight: 0.0007545025
+O-1 Weight: 0.046190113
+O-2 Weight: 0.35086793
+Oexc1 Weight: 0.25875962
+Oexc2 Weight: 0.0012072407
+Sum: 1.0000211053993553
+
+C Eff. Charge 0.7466516463027801
+O Eff. Charge -0.7471714644925669
+
+Total Charge:  -0.0005198181897867471
+
+Electrons integrated (actual): 12.7865
+actual px = -0.0441 D
+actual py = -0.0441 D
+actual pz = -4.1012 D
+|p| = 4.1017 D
+
+
+Electrons integrated (pred): 12.7891
+pred px = -0.0426 D
+pred py = -0.0426 D
+pred pz = -6.7125 D
+|p| = 6.7128 D
+
+Electron count (raw approx): 12.786498965320437
+RMSE:  0.005060302199838215
+Elapsed time for 2.05 A: 0 min 53 s
+
+-------------------------------------------------------
+Separation:  1.95
+
+
+Shift:  -2.105695
+Given R: 3.6849656777699997
+
+C0 Weight: 0.5916289
+C+1 Weight: 0.0016392383
+C-1 Weight: 0.00092440797
+C+2 Weight: 0.3990767
+Cexc1 Weight: 0.001198293
+Cexc2 Weight: 0.0057986467
+Cexc3 Weight: 0.0014784225
+Sum: 1.0017446178244427
+
+O0 Weight: 0.30061474
+O+1 Weight: 0.001152562
+O-1 Weight: 0.032315906
+O-2 Weight: 0.3830295
+Oexc1 Weight: 0.2792732
+Oexc2 Weight: 0.0052389884
+Sum: 1.0016249036416411
+
+C Eff. Charge 0.7988682307768613
+O Eff. Charge -0.797222325578332
+
+Total Charge:  0.0016459051985293627
+
+Electrons integrated (actual): 12.5854
+actual px = -0.0336 D
+actual py = -0.0336 D
+actual pz = -3.0184 D
+|p| = 3.0188 D
+
+
+Electrons integrated (pred): 12.6347
+pred px = -0.0324 D
+pred py = -0.0324 D
+pred pz = -6.0833 D
+|p| = 6.0834 D
+
+Electron count (raw approx): 12.585407775086583
+RMSE:  0.004089712674632719
+Elapsed time for 1.95 A: 0 min 45 s
+
+-------------------------------------------------------
+Separation:  1.85
+
+
+Shift:  -1.99771
+Given R: 3.49599307891
+
+C0 Weight: 0.54674375
+C+1 Weight: 0.007464506
+C-1 Weight: 0.00086281775
+C+2 Weight: 0.44167623
+Cexc1 Weight: 0.0008866858
+Cexc2 Weight: 0.0010935233
+Cexc3 Weight: 0.0009972921
+Sum: 0.9997248050058261
+
+O0 Weight: 0.24505232
+O+1 Weight: 0.0017690845
+O-1 Weight: 0.00846092
+O-2 Weight: 0.44132885
+Oexc1 Weight: 0.29467484
+Oexc2 Weight: 0.0073106172
+Sum: 0.9985966417007148
+
+C Eff. Charge 0.8899541469290853
+O Eff. Charge -0.8893495425581932
+
+Total Charge:  0.0006046043708920479
+
+Electrons integrated (actual): 12.8475
+actual px = -0.0480 D
+actual py = -0.0480 D
+actual pz = -2.9244 D
+|p| = 2.9252 D
+
+
+Electrons integrated (pred): 12.8552
+pred px = -0.0458 D
+pred py = -0.0458 D
+pred pz = -7.3708 D
+|p| = 7.3711 D
+
+Electron count (raw approx): 12.847460969305907
+RMSE:  0.0045150659213572105
+Elapsed time for 1.85 A: 0 min 43 s
+
+-------------------------------------------------------
+Separation:  1.75
+
+
+Shift:  -1.889726
+Given R: 3.30702048005
+
+C0 Weight: 0.54949754
+C+1 Weight: 0.012091705
+C-1 Weight: 0.0022283837
+C+2 Weight: 0.4306895
+Cexc1 Weight: 0.0009136401
+Cexc2 Weight: 0.0007333605
+Cexc3 Weight: 0.00070937996
+Sum: 0.9968635272816755
+
+O0 Weight: 0.23410337
+O+1 Weight: 0.004847242
+O-1 Weight: 0.0027786428
+O-2 Weight: 0.43866372
+Oexc1 Weight: 0.31244466
+Oexc2 Weight: 0.011681219
+Sum: 1.0045188483782113
+
+C Eff. Charge 0.871242348337546
+O Eff. Charge -0.8752588429488242
+
+Total Charge:  -0.004016494611278176
+
+Electrons integrated (actual): 12.5699
+actual px = -0.0330 D
+actual py = -0.0330 D
+actual pz = -0.1685 D
+|p| = 0.1749 D
+
+
+Electrons integrated (pred): 12.6049
+pred px = -0.0312 D
+pred py = -0.0312 D
+pred pz = -5.9785 D
+|p| = 5.9786 D
+
+Electron count (raw approx): 12.569907350089384
+RMSE:  0.005778549954884754
+Elapsed time for 1.75 A: 0 min 31 s
+
+-------------------------------------------------------
+Separation:  1.65
+
+
+Shift:  -1.781742
+Given R: 3.11804788119
+
+C0 Weight: 0.5396591
+C+1 Weight: 0.01725398
+C-1 Weight: 0.00041653312
+C+2 Weight: 0.44052497
+Cexc1 Weight: 0.0005138649
+Cexc2 Weight: 0.0003212617
+Cexc3 Weight: 0.0003148601
+Sum: 0.9990045482991263
+
+O0 Weight: 0.20831504
+O+1 Weight: 0.038882256
+O-1 Weight: 0.00035270615
+O-2 Weight: 0.46734977
+Oexc1 Weight: 0.28197804
+Oexc2 Weight: 0.0006461379
+Sum: 0.997523952886695
+
+C Eff. Charge 0.8978873779706191
+O Eff. Charge -0.8961699859646615
+
+Total Charge:  0.001717392005957663
+
+Electrons integrated (actual): 12.8173
+actual px = -0.0462 D
+actual py = -0.0462 D
+actual pz = -0.2849 D
+|p| = 0.2923 D
+
+
+Electrons integrated (pred): 12.8197
+pred px = -0.0440 D
+pred py = -0.0440 D
+pred pz = -6.5829 D
+|p| = 6.5832 D
+
+Electron count (raw approx): 12.817261830725654
+RMSE:  0.004325333851434513
+Elapsed time for 1.65 A: 0 min 58 s
+
+-------------------------------------------------------
+Separation:  1.55
+
+
+Shift:  -1.673757
+Given R: 2.92907528233
+
+C0 Weight: 0.5495262
+C+1 Weight: 0.03318974
+C-1 Weight: 0.00090463884
+C+2 Weight: 0.4142798
+Cexc1 Weight: 0.001964873
+Cexc2 Weight: 0.0013227465
+Cexc3 Weight: 0.0012390121
+Sum: 1.0024270137655549
+
+O0 Weight: 0.21842316
+O+1 Weight: 0.06558837
+O-1 Weight: 0.0011217976
+O-2 Weight: 0.45943433
+Oexc1 Weight: 0.25552827
+Oexc2 Weight: 0.0024506624
+Sum: 1.0025465895887464
+
+C Eff. Charge 0.8608446786529385
+O Eff. Charge -0.854402088560164
+
+Total Charge:  0.006442590092774481
+
+Electrons integrated (actual): 12.6436
+actual px = -0.0365 D
+actual py = -0.0365 D
+actual pz = +0.3231 D
+|p| = 0.3272 D
+
+
+Electrons integrated (pred): 12.6969
+pred px = -0.0348 D
+pred py = -0.0348 D
+pred pz = -5.2054 D
+|p| = 5.2056 D
+
+Electron count (raw approx): 12.643575268764629
+RMSE:  0.003552964896629289
+Elapsed time for 1.55 A: 0 min 35 s
+
+-------------------------------------------------------
+Separation:  1.40
+
+
+Shift:  -1.511781
+Given R: 2.6456163840399998
+
+C0 Weight: 0.57368326
+C+1 Weight: 0.031151826
+C-1 Weight: 0.0005778901
+C+2 Weight: 0.39138916
+Cexc1 Weight: 0.0008712219
+Cexc2 Weight: 0.0006996051
+Cexc3 Weight: 0.00067120686
+Sum: 0.9990441726986319
+
+O0 Weight: 0.2553163
+O+1 Weight: 0.0819254
+O-1 Weight: 4.365362e-05
+O-2 Weight: 0.4468131
+Oexc1 Weight: 0.21149063
+Oexc2 Weight: -0.0
+Sum: 0.9955890781420749
+
+C Eff. Charge 0.8133522581774741
+O Eff. Charge -0.8117444670933764
+
+Total Charge:  0.0016077910840976983
+
+Electrons integrated (actual): 12.5703
+actual px = -0.0326 D
+actual py = -0.0326 D
+actual pz = +0.3344 D
+|p| = 0.3376 D
+
+
+Electrons integrated (pred): 12.5651
+pred px = -0.0310 D
+pred py = -0.0310 D
+pred pz = -4.1565 D
+|p| = 4.1568 D
+
+Electron count (raw approx): 12.570308684441791
+RMSE:  0.003765513904265102
+Elapsed time for 1.40 A: 0 min 47 s
+
+-------------------------------------------------------
+Separation:  1.25
+
+
+Shift:  -1.349804
+Given R: 2.36215748575
+
+C0 Weight: 0.5947822
+C+1 Weight: 0.0467889
+C-1 Weight: 0.0006062819
+C+2 Weight: 0.35542142
+Cexc1 Weight: 0.0006515733
+Cexc2 Weight: 0.00030874286
+Cexc3 Weight: 0.00030633388
+Sum: 0.9988654305925593
+
+O0 Weight: 0.29933625
+O+1 Weight: 0.12230266
+O-1 Weight: 0.0011475335
+O-2 Weight: 0.43975762
+Oexc1 Weight: 0.13825832
+Oexc2 Weight: 0.0011558542
+Sum: 1.0019582395907491
+
+C Eff. Charge 0.757025466999039
+O Eff. Charge -0.7583601053338498
+
+Total Charge:  -0.0013346383348107338
+
+Electrons integrated (actual): 12.6088
+actual px = -0.0345 D
+actual py = -0.0345 D
+actual pz = +0.3554 D
+|p| = 0.3588 D
+
+
+Electrons integrated (pred): 12.6679
+pred px = -0.0332 D
+pred py = -0.0332 D
+pred pz = -3.7663 D
+|p| = 3.7666 D
+
+Electron count (raw approx): 12.608786236274682
+RMSE:  0.004369814084584557
+Elapsed time for 1.25 A: 1 min 3 s
+
+-------------------------------------------------------
+Separation:  1.19
+
+
+Shift:  -1.285014
+Given R: 2.2487739264339996
+
+C0 Weight: 0.60688186
+C+1 Weight: 0.04965861
+C-1 Weight: 0.0013837379
+C+2 Weight: 0.33727652
+Cexc1 Weight: 0.0010050661
+Cexc2 Weight: -0.0
+Cexc3 Weight: -0.0
+Sum: 0.9962057906668633
+
+O0 Weight: 0.32759058
+O+1 Weight: 0.14685942
+O-1 Weight: 0.0016061985
+O-2 Weight: 0.43590054
+Oexc1 Weight: 0.08718356
+Oexc2 Weight: 0.0015839871
+Sum: 1.0007242893334478
+
+C Eff. Charge 0.7228279102127999
+O Eff. Charge -0.7265478544868529
+
+Total Charge:  -0.0037199442740529776
+
+Electrons integrated (actual): 12.6815
+actual px = -0.0383 D
+actual py = -0.0383 D
+actual pz = +0.4544 D
+|p| = 0.4576 D
+
+
+Electrons integrated (pred): 12.7191
+pred px = -0.0367 D
+pred py = -0.0367 D
+pred pz = -3.4109 D
+|p| = 3.4113 D
+
+Electron count (raw approx): 12.681455061987936
+RMSE:  0.004471978177352098
+Elapsed time for 1.19 A: 0 min 36 s
+
+-------------------------------------------------------
+Separation:  1.17
+
+
+Shift:  -1.263417
+Given R: 2.2109794066619997
+
+C0 Weight: 0.61263853
+C+1 Weight: 0.059723895
+C-1 Weight: 0.00045833833
+C+2 Weight: 0.32362193
+Cexc1 Weight: 0.00094646297
+Cexc2 Weight: 0.00032420392
+Cexc3 Weight: 0.00032327685
+Sum: 0.9980366389208939
+
+O0 Weight: 0.3390354
+O+1 Weight: 0.18349405
+O-1 Weight: 0.0012992295
+O-2 Weight: 0.44453
+Oexc1 Weight: 0.030689104
+Oexc2 Weight: 0.0018167384
+Sum: 1.0008645197376609
+
+C Eff. Charge 0.7065094140998553
+O Eff. Charge -0.7068652035668492
+
+Total Charge:  -0.00035578946699388325
+
+Electrons integrated (actual): 12.7805
+actual px = -0.0437 D
+actual py = -0.0437 D
+actual pz = +0.2616 D
+|p| = 0.2688 D
+
+
+Electrons integrated (pred): 12.8356
+pred px = -0.0420 D
+pred py = -0.0420 D
+pred pz = -3.4997 D
+|p| = 3.5002 D
+
+Electron count (raw approx): 12.780491476934234
+RMSE:  0.004609859923899152
+Elapsed time for 1.17 A: 0 min 50 s
+
+-------------------------------------------------------
+Separation:  1.15
+
+
+Shift:  -1.24182
+Given R: 2.1731848868899997
+
+C0 Weight: 0.60427564
+C+1 Weight: 0.08050468
+C-1 Weight: 0.00039425705
+C+2 Weight: 0.31424588
+Cexc1 Weight: 0.000613532
+Cexc2 Weight: 0.00035947326
+Cexc3 Weight: 0.00033830156
+Sum: 1.0007317655545194
+
+O0 Weight: 0.3214109
+O+1 Weight: 0.2151641
+O-1 Weight: 0.00027719492
+O-2 Weight: 0.46119064
+Oexc1 Weight: 0.00068425754
+Oexc2 Weight: 0.00049645384
+Sum: 0.9992235367826652
+
+C Eff. Charge 0.70860218044254
+O Eff. Charge -0.7074943816114683
+
+Total Charge:  0.0011077988310717046
+
+Electrons integrated (actual): 12.8472
+actual px = -0.0474 D
+actual py = -0.0474 D
+actual pz = +0.1187 D
+|p| = 0.1363 D
+
+
+Electrons integrated (pred): 12.9118
+pred px = -0.0457 D
+pred py = -0.0457 D
+pred pz = -3.5910 D
+|p| = 3.5916 D
+
+Electron count (raw approx): 12.847152688050251
+RMSE:  0.004722507613336109
+Elapsed time for 1.15 A: 1 min 37 s
+
+-------------------------------------------------------
+Separation:  1.13
+
+
+Shift:  -1.220223
+Given R: 2.1353903671179997
+
+C0 Weight: 0.59201163
+C+1 Weight: 0.09047367
+C-1 Weight: 0.00065398245
+C+2 Weight: 0.31163642
+Cexc1 Weight: 0.00087457546
+Cexc2 Weight: 0.0003465929
+Cexc3 Weight: 0.0002955154
+Sum: 0.9962923816347029
+
+O0 Weight: 0.3119427
+O+1 Weight: 0.21595305
+O-1 Weight: 0.00027748058
+O-2 Weight: 0.4632874
+Oexc1 Weight: 0.0004227679
+Oexc2 Weight: 2.7729955e-05
+Sum: 0.9919111401541159
+
+C Eff. Charge 0.7130925205419771
+O Eff. Charge -0.7108992547728121
+
+Total Charge:  0.0021932657691650093
+
+Electrons integrated (actual): 12.8466
+actual px = -0.0474 D
+actual py = -0.0474 D
+actual pz = +0.1239 D
+|p| = 0.1409 D
+
+
+Electrons integrated (pred): 12.8337
+pred px = -0.0454 D
+pred py = -0.0454 D
+pred pz = -3.5661 D
+|p| = 3.5666 D
+
+Electron count (raw approx): 12.846603536721515
+RMSE:  0.004688406889695097
+Elapsed time for 1.13 A: 0 min 34 s
+
+-------------------------------------------------------
+Separation:  1.12
+
+
+Shift:  -1.209425
+Given R: 2.1164931072320003
+
+C0 Weight: 0.57838625
+C+1 Weight: 0.12259022
+C-1 Weight: 0.0007348832
+C+2 Weight: 0.29600582
+Cexc1 Weight: 0.000728536
+Cexc2 Weight: 9.367511e-05
+Cexc3 Weight: 8.9153065e-05
+Sum: 0.9986285312406835
+
+O0 Weight: 0.30447596
+O+1 Weight: 0.22450426
+O-1 Weight: 0.0010818635
+O-2 Weight: 0.46938536
+Oexc1 Weight: 0.0013598662
+Oexc2 Weight: 0.0012027433
+Sum: 1.0020100540714338
+
+C Eff. Charge 0.713866968813818
+O Eff. Charge -0.7153483127476647
+
+Total Charge:  -0.0014813439338468015
+
+Electrons integrated (actual): 12.8197
+actual px = -0.0459 D
+actual py = -0.0459 D
+actual pz = +0.1923 D
+|p| = 0.2030 D
+
+
+Electrons integrated (pred): 12.9003
+pred px = -0.0443 D
+pred py = -0.0443 D
+pred pz = -3.6449 D
+|p| = 3.6454 D
+
+Electron count (raw approx): 12.819680862117837
+RMSE:  0.005034914445247714
+Elapsed time for 1.12 A: 1 min 2 s
+
+-------------------------------------------------------
+Separation:  1.10
+
+
+Shift:  -1.187828
+Given R: 2.07869858746
+
+C0 Weight: 0.5892352
+C+1 Weight: 0.13762888
+C-1 Weight: 0.0006050797
+C+2 Weight: 0.2711847
+Cexc1 Weight: 0.0007890958
+Cexc2 Weight: 0.0003724839
+Cexc3 Weight: 0.00031729985
+Sum: 1.0001327416102868
+
+O0 Weight: 0.2921317
+O+1 Weight: 0.24480447
+O-1 Weight: 0.00075302494
+O-2 Weight: 0.46148175
+Oexc1 Weight: 0.0012452259
+Oexc2 Weight: 0.0010183093
+Sum: 1.0014344740193337
+
+C Eff. Charge 0.6793932287255302
+O Eff. Charge -0.6789120532339439
+
+Total Charge:  0.00048117549158632755
+
+Electrons integrated (actual): 12.7306
+actual px = -0.0410 D
+actual py = -0.0410 D
+actual pz = +0.4300 D
+|p| = 0.4339 D
+
+
+Electrons integrated (pred): 12.8195
+pred px = -0.0395 D
+pred py = -0.0395 D
+pred pz = -3.2091 D
+|p| = 3.2096 D
+
+Electron count (raw approx): 12.730620204370405
+RMSE:  0.005107354298735934
+Elapsed time for 1.10 A: 1 min 16 s
+
+-------------------------------------------------------
+Separation:  1.06
+
+
+Shift:  -1.144634
+Given R: 2.003109547916
+
+C0 Weight: 0.6075674
+C+1 Weight: 0.13908611
+C-1 Weight: 0.0021748093
+C+2 Weight: 0.23762545
+Cexc1 Weight: 0.013158503
+Cexc2 Weight: 0.0012102216
+Cexc3 Weight: 0.0011577217
+Sum: 1.0019802474416792
+
+O0 Weight: 0.30662715
+O+1 Weight: 0.25398615
+O-1 Weight: 0.0021092836
+O-2 Weight: 0.43447164
+Oexc1 Weight: 0.0021772834
+Oexc2 Weight: 0.001418112
+Sum: 1.0007896203314885
+
+C Eff. Charge 0.6121622028294951
+O Eff. Charge -0.6170664075762033
+
+Total Charge:  -0.004904204746708274
+
+Electrons integrated (actual): 12.5768
+actual px = -0.0328 D
+actual py = -0.0328 D
+actual pz = +0.9437 D
+|p| = 0.9449 D
+
+
+Electrons integrated (pred): 12.6740
+pred px = -0.0316 D
+pred py = -0.0316 D
+pred pz = -2.2767 D
+|p| = 2.2771 D
+
+Electron count (raw approx): 12.576761357947298
+RMSE:  0.005236715815536522
+Elapsed time for 1.06 A: 0 min 35 s
+
+-------------------------------------------------------
+Separation:  1.02
+
+
+Shift:  -1.10144
+Given R: 1.927520508372
+
+C0 Weight: 0.6309616
+C+1 Weight: 0.16117848
+C-1 Weight: 0.0007048483
+C+2 Weight: 0.1953468
+Cexc1 Weight: 0.010827577
+Cexc2 Weight: -0.0
+Cexc3 Weight: -0.0
+Sum: 0.999019309063442
+
+O0 Weight: 0.3127548
+O+1 Weight: 0.26987553
+O-1 Weight: 0.0016384263
+O-2 Weight: 0.40988746
+Oexc1 Weight: 0.002318191
+Oexc2 Weight: 0.0022059812
+Sum: 0.9986803977517411
+
+C Eff. Charge 0.5511672411812469
+O Eff. Charge -0.5515378256095573
+
+Total Charge:  -0.0003705844283103943
+
+Electrons integrated (actual): 12.6507
+actual px = -0.0367 D
+actual py = -0.0367 D
+actual pz = +0.9902 D
+|p| = 0.9916 D
+
+
+Electrons integrated (pred): 12.7186
+pred px = -0.0353 D
+pred py = -0.0353 D
+pred pz = -1.9899 D
+|p| = 1.9906 D
+
+Electron count (raw approx): 12.650680947509846
+RMSE:  0.005512995579605632
+Elapsed time for 1.02 A: 0 min 48 s
+
+-------------------------------------------------------
+Separation:  0.98
+
+
+Shift:  -1.058247
+Given R: 1.851931468828
+
+C0 Weight: 0.62836444
+C+1 Weight: 0.19120693
+C-1 Weight: 0.00055345765
+C+2 Weight: 0.17851608
+Cexc1 Weight: 0.0008736065
+Cexc2 Weight: 0.0005711487
+Cexc3 Weight: 0.0005614451
+Sum: 1.0006471087690443
+
+O0 Weight: 0.30652365
+O+1 Weight: 0.2778593
+O-1 Weight: 0.003494826
+O-2 Weight: 0.41065687
+Oexc1 Weight: 0.000250569
+Oexc2 Weight: 0.00024045323
+Sum: 0.9990256688033696
+
+C Eff. Charge 0.5476856244495139
+O Eff. Charge -0.5469492643605918
+
+Total Charge:  0.0007363600889220834
+
+Electrons integrated (actual): 12.8305
+actual px = -0.0466 D
+actual py = -0.0466 D
+actual pz = +0.7089 D
+|p| = 0.7120 D
+
+
+Electrons integrated (pred): 12.9141
+pred px = -0.0450 D
+pred py = -0.0450 D
+pred pz = -2.2799 D
+|p| = 2.2808 D
+
+Electron count (raw approx): 12.830490833217569
+RMSE:  0.006092471262437294
+Elapsed time for 0.98 A: 0 min 57 s
+
+-------------------------------------------------------
+Separation:  0.94
+
+
+Shift:  -1.015053
+Given R: 1.7763424292839998
+
+C0 Weight: 0.6278329
+C+1 Weight: 0.22376588
+C-1 Weight: 0.0006784237
+C+2 Weight: 0.14637634
+Cexc1 Weight: 0.0009857743
+Cexc2 Weight: 0.00044135886
+Cexc3 Weight: 0.00041244994
+Sum: 1.0004931178118568
+
+O0 Weight: 0.29313102
+O+1 Weight: 0.29782876
+O-1 Weight: 0.0035049834
+O-2 Weight: 0.40466836
+Oexc1 Weight: 0.00012083307
+Oexc2 Weight: 0.00010055788
+Sum: 0.9993545226534479
+
+C Eff. Charge 0.5158401393564418
+O Eff. Charge -0.5150129415560514
+
+Total Charge:  0.0008271978003904223
+
+Electrons integrated (actual): 12.8055
+actual px = -0.0452 D
+actual py = -0.0452 D
+actual pz = +0.7695 D
+|p| = 0.7722 D
+
+
+Electrons integrated (pred): 12.8986
+pred px = -0.0438 D
+pred py = -0.0438 D
+pred pz = -2.1351 D
+|p| = 2.1360 D
+
+Electron count (raw approx): 12.805494670420913
+RMSE:  0.006599835111986736
+Elapsed time for 0.94 A: 1 min 10 s
+
+-------------------------------------------------------
+Separation:  0.90
+
+
+Shift:  -0.971859
+Given R: 1.70075338974
+
+C0 Weight: 0.6502883
+C+1 Weight: 0.23406845
+C-1 Weight: 0.0002681889
+C+2 Weight: 0.076713234
+Cexc1 Weight: 0.037236955
+Cexc2 Weight: 0.00032039045
+Cexc3 Weight: 0.00031889204
+Sum: 0.9992143977142405
+
+O0 Weight: 0.31740332
+O+1 Weight: 0.32494736
+O-1 Weight: 0.0034925845
+O-2 Weight: 0.35427904
+Oexc1 Weight: 0.0009420477
+Oexc2 Weight: 0.0008571388
+Sum: 1.0019214858766645
+
+C Eff. Charge 0.3872267327969894
+O Eff. Charge -0.3871033098548651
+
+Total Charge:  0.00012342294212430716
+
+Electrons integrated (actual): 12.6194
+actual px = -0.0352 D
+actual py = -0.0352 D
+actual pz = +1.2269 D
+|p| = 1.2279 D
+
+
+Electrons integrated (pred): 12.7347
+pred px = -0.0342 D
+pred py = -0.0342 D
+pred pz = -1.2525 D
+|p| = 1.2534 D
+
+Electron count (raw approx): 12.619421935936506
+RMSE:  0.0069499332460215444
+Elapsed time for 0.90 A: 0 min 52 s
+Total runtime: 66 min 33 s
+
+--------------------------------------------------------------------
+Job Complete!
+
+Sol S., 07/06/26  18:4:54
+
